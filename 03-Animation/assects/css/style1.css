@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*p1.html code*/
+
+.commonAnimation{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 300px;
+}
+.commonAnimation>h1{
+    text-align: center;
+    /* color: #fff; */
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #000;
+}
+.animation{
+    background-color: #000;
+    animation: bepractical 10s infinite;
+}
+   
+
+.animation{
+    color: #fff;
+    animation: balu 1os infinite;
+}
+@keyframes balu{
+    from{color: chartreuse;}
+    to{color: aqua;}
+}
+.animation2{
+    background: url(../Images/pexels-karolina-grabowska-4041122.jpg) no-repeat center;
+    background-size: 100%;
+    animation: animation_image 10s infinite;
+}
+@keyframes animation_image {
+    from{background: url(../Images/pexels-karolina-grabowska-4041152.jpg)no-repeat top; color: red;}
+    to{background: url(../Images/pexels-karolina-grabowska-4041152.jpg)no-repeat bottom; color: rgb(60, 255, 0);}
+}
+/*p3.html*/
+.animation3{
+    background: #fc466b;
+    padding: 20px;
+    margin: 30px;
+    border-radius:5px ;
+    position: absolute;
+    animation: cssAnimation3 10s infinite;
+}
+@keyframes cssAnimation3 {
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: #74fc46;
+    }
+    25%{
+        top: 0px;
+        left: 600px;
+        background-color: aqua;
+    }
+    50%{
+        top: 400px;
+        left:600px ;
+        background-color: blue;
+    }
+    75%{
+        top: 400px;
+        left: 0px;
+        background: #74fc46;
+    }
+    100%{
+        top: 0%;
+        left: 0%;
+        background: #fc466b;
+    }
+
+    
+}

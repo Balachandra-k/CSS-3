@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="assects/css/style1.css">
+</head>
+<body>
+        <form autocomplete="off" onsubmit="validate(event)" onreset="mani()" data-aos="fade-down"
+        data-aos-duration="2000" method="post">
+            <h2>contact form</h2>
+           <br>
+                <label for="name">userName</label><br>
+                <input type="text" name="name" id="name" > <br>
+                <span id="status"></span><br><br>
+        
+                <label for="">Email id</label><br>
+                <input type="email" name="email" id="email" ><br>
+                <span id="error"></span><br><br>
+          
+                <label for="">MobileNumber</label><br>
+                <input type="number" name="mobile" id="mobile" maxlength="10" ><br>
+                <span id="chinnu"></span><br><br>
+
+                <label for="">city</label><br>
+                <select name="city" id="city">
+                    <option value="null">select city</option>
+                    <option value="kurnool">kurnool</option>
+                    <option value="bangalore">bangalore</option>
+                    <option value="kadapa">kadapa</option>
+                    <option value="nandyal">nandyal</option>
+                </select> <br>
+                <strong id="mani1"></strong>
+                <br><br>
+
+                <label for="">Gender</label><br>
+                <label for="">
+                <input type="radio" name="gender" id="male" value="male" >Male
+                </label>
+    
+                <label for="">
+                <input type="radio" name="gender" id="female" value="female" >Female
+                </label>
+                <label for="">
+                    <input type="radio" name="gender" id="others" value="others">others
+                    </label><br>
+                <strong id="jaga"></strong>
+                <br><br>
+
+                <label for="">Languages(optional)</label><br>
+                <input type="checkbox" name="telugu" id="telugu" >
+                <label for="">Telugu</label>
+                <input type="checkbox" name="english" id="english" >
+                <label for="">English</label>
+                <input type="checkbox" name="kannada" id="kannada" >
+                <label for="">Kannada</label>
+                <input type="checkbox" name="hindi" id="hindi" >
+                <label for="">Hindi</label>
+                <input type="checkbox" name="urdu" id="urdu">
+                <label for="">urdu</label>
+                <input type="checkbox" name="kannada" id="kannada">
+                <label for="">kannada</label>
+                <br>
+                <strong id="vinny"></strong>
+                    <br><br>
+
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+        <script src="assects/js/js.js"></script>
+</body>
+</html>

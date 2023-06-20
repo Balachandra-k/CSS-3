@@ -1,0 +1,22 @@
+/*mobile*/
+@media(max-width:992px){
+.navBar>ul{
+    text-align: right;
+}
+.tabImg{
+    
+
+}
+.company{
+    src: url(../Images/laptop.jpg) ;
+    background-position: 30%;
+    flex-direction: row;
+
+}
+
+}
+/*tab*/
+@media(max-width:993px) and (max-width:1200px){
+
+}
+   

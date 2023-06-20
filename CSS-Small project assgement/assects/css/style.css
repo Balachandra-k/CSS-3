@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding:0%;
+}
+.container{
+    background-color:transparent;
+    height:64px;
+}
+.navBar>img{
+    height: 64px;
+    padding: 0px 40px;
+    
+}
+.navBar>ul{
+    float:right;
+    position: relative;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+
+}
+:root{ 
+    --yellow:#f1c01b;   
+    --black:#111;       
+    --white:#fff; 
+    --acqva:#0aeef6;
+}      
+.navBar>ul>li>a{
+    text-decoration: none;
+    color: var(--white);
+
+}
+.navBar>ul>li>a:hover{
+    color: var(--yellow);
+}
+.button{
+    background-color:transparent;
+    border-radius: 20%;
+    padding: 5px;
+    color:var(--white);
+}
+button:hover{
+    color: var(--yellow);
+}
+
+/* BANNER CODE */
+.navBanner{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../Images/pexels-eberhard-grossgasteiger-640781.jpg) no-repeat;
+    background-size: 100%;
+    height:80vh;
+     border-bottom-right-radius: 500px;
+}
+
+
+.headMatter{
+    margin-left: 8%;
+    margin-top: 15%;
+    font-size: 20px;
+    
+}
+.headMatter>button{
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    color:var(--white);
+
+}
+.headMatter>button:hover{
+    background-color:var(--yellow);
+    color: var(--black);
+    
+}
+.headMatter>h1{
+    color:var(--white);
+}
+.headMatter>p{
+    color: var(--yellow);
+}
+.tabImg{
+    position: sticky;
+    float: right;
+    height: 300px;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color:var(--yellow);
+    width: 70%;
+
+}
+.footer>div>img{
+    display: inline-block;
+    height: 88px;
+    border-radius: 60%;
+    border-style: solid ;
+    background-color: var(--white);
+    height: 50px;
+
+}
+
+
+
+/* company code */
+
+
+
+
+.company>div>img{
+    height: 100%;
+    width: 100%;
+}
+
+    
+
+
+.company>div{
+    flex: 1;
+    line-height: 2;
+    overflow: hidden;
+    float:right
+}
+.details>h1{
+    color:var(--yellow);
+    font-size:20px;
+    margin-right: auto;
+
+
+
+
+}
+/* intro code */
+
+.inside{
+    text-align: center;
+}
+.inside>div>h4{
+    color:var(--yellow);
+}
+.cardDiv{
+    border: 3px solid var(--yellow);
+    border-radius: 20px;
+    height:5%;
+    margin-top: 8%;
+
+
+}
+
+.carDiv2>h1{
+    margin-left: 160px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.cardDiv>p{
+    background-color: var(--acqva);
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.carDiv2>p{
+    margin-bottom: 20px;
+    margin-left: 180px;
+    margin-right: 120px;
+}
+.carDiv2>center{
+    padding: 20px;
+    background-color:var(--yellow);
+    margin-left: 180px;
+    margin-right: 20%;
+}
+.carDiv2>h3{
+    margin-bottom: 20px;
+    margin-left: 180px;
+    background-color:var(--yellow);
+    margin-right: 20%;
+
+}
+
+/* card2 */
+.card2,.company,.intro{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    
+}
+
+.card2{
+    margin-top: 20px;
+}
+.card2>div>img{
+    padding: 5px;
+    border: 2px solid var(--black);
+    border-radius: 60%;
+
+    
+}
+.card2>div>h4{
+    color: var(--yellow);
+    margin-left: 80PX;
+}
+.card2>div>h1{
+    margin-left: 80PX;
+    
+}
+.card2>div>p{
+    margin-left: 10%;
+    margin-right: 20%;
+    padding: 20px;
+}
+.review{
+    text-align: center;
+}
+.review>div>p{
+    color: var(--yellow);
+    
+}
+.review>div>h1{
+    font-weight: bold;
+}
+
+/* cssCard */
+
+
+
+footer{
+    background-color:var(--acqva);
+    height: 400px;
+    border-top-left-radius: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+.getInTouch{
+    
+    border: 3px solid var(--white);
+    margin-bottom: 100px;
+    background-color:var(--white);
+    padding: 10px;
+    box-shadow: -15px -15px  15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    width: 20%;
+    
+    
+}
+.getInTouch>input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px ;
+    
+}
+
+
+
+.footerDetails{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 10%  10% 0% 8%;
+    
+
+
+}
+.footerDetails>p{
+    margin-left: 50px;
+}
+.btn{
+    background-color:var(--yellow);
+    border-radius: 20px;
+    color: var(--white);
+    width: 80%;
+    padding: -10px;
+    border: 20px solid transparent;
+    font-weight: bold;
+
+}
+.btn:hover{
+    color: var(--black);
+    font-weight: bold;
+}
+.fa-twitter,.fa-instagram,.fa-youtube,.fa-facebook{
+    background-color: var(--yellow);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 50%;
+}
+.cssCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.img1>img,.img2>img,.img3>img{
+    margin-top: 30px;
+    
+    height: 20%;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    
+}
+.img1,.img2,.img3{
+   background-image: url(../Images/pexels-eberhard-grossgasteiger-640781.jpg);
+   background-size: cover;
+   margin: 5px;
+   height: 450px;
+   width: 100%;
+   border-radius: 30px;
+
+}
+.img1>p,.img2>p,.img3>p{
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    text-align: justify;
+}
